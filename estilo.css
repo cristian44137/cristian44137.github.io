@@ -13,3 +13,4 @@ hr{border:0;border-top:1px solid var(--linea);margin:2.5rem 0}
 a{color:var(--acento);text-underline-offset:3px}
 footer{color:var(--suave);font-size:.9rem;margin-top:3rem}
 code{font-size:.92em}
+.marca{margin:.2rem 0 .6rem}.marca svg{display:block;height:4.2rem;width:auto;overflow:visible}
