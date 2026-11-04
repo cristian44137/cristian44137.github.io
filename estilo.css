@@ -1,13 +1,15 @@
-:root{--fondo:#EDF1F6;--texto:#1B2B3E;--suave:#4F6378;--linea:#CFD8E3;--acento:#27415A;--nota:#D4B780;--tarjeta:#fff}
-@media (prefers-color-scheme:dark){:root{--fondo:#0D1218;--texto:#E6ECF2;--suave:#9FB1C6;--linea:#26364A;--acento:#8FA9C7;--nota:#D4B780;--tarjeta:#151D27}}
+:root{--fondo:#F4F8FC;--texto:#13263B;--suave:#4D6176;--linea:#D3DEEA;--acento:#1565C0;--tarjeta:#FFFFFF}
+@media (prefers-color-scheme:dark){:root{--fondo:#0A1520;--texto:#E6EEF6;--suave:#9DB2C8;--linea:#22364B;--acento:#7DB4F2;--tarjeta:#12202E}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--fondo);color:var(--texto);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-main{max-width:42rem;margin:0 auto;padding:2.5rem 1.25rem 4rem}
-h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:700;line-height:1.2;color:var(--acento)}
-h1{font-size:2.1rem;margin:0 0 .4rem}h2{font-size:1.35rem;margin:2.2rem 0 .5rem}
-p,li{margin:.5rem 0}ul{padding-left:1.2rem}
-.sub{color:var(--suave);margin:0 0 1.5rem}
-.nota{border-left:4px solid var(--nota);background:var(--tarjeta);padding:.8rem 1rem;border-radius:0 8px 8px 0;margin:1.2rem 0}
+main{max-width:44rem;margin:0 auto;padding:2rem 1.25rem 4rem}
+nav{display:flex;flex-wrap:wrap;gap:1.2rem;align-items:center;margin:0 0 2rem;font-size:.95rem}
+nav img{width:40px;height:40px;border-radius:10px}
+h1,h2{line-height:1.2;color:var(--acento)}h1{font-size:2rem;margin:.2rem 0 .4rem}h2{font-size:1.3rem;margin:2rem 0 .5rem}
+p,li{margin:.45rem 0}ul{padding-left:1.2rem}
+.sub{color:var(--suave);margin:0 0 1.4rem}
+.tarjeta{background:var(--tarjeta);border:1px solid var(--linea);border-radius:14px;padding:1rem 1.2rem;margin:1.2rem 0}
 hr{border:0;border-top:1px solid var(--linea);margin:2.5rem 0}
-a{color:var(--acento);text-underline-offset:3px}a:focus-visible{outline:3px solid var(--nota);outline-offset:2px}
-nav{display:flex;gap:1.2rem;margin:0 0 2rem;font-size:.95rem}
+a{color:var(--acento);text-underline-offset:3px}
+footer{color:var(--suave);font-size:.9rem;margin-top:3rem}
+code{font-size:.92em}
